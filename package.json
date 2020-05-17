@@ -1,0 +1,27 @@
+{
+  "name": "spotifyapi_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.4",
+    "express": "~4.16.0",
+    "jshint": "^2.10.3",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
+    "spotify-web-api-node": "^4.0.0",
+    "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "test": "jest --watchAll --verbose --runInBand",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
